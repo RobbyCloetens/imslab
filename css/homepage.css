@@ -1,0 +1,367 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+.plaatsen {
+    position: absolute;
+}
+.architectuur {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    top: 305px;
+    left: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+.architectuur:hover{
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 305px;
+    left: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+
+#Architectuur{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: -5px;
+
+}
+.communicatie {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    top: 305px;
+    left: 550px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+.communicatie:hover{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    top: 305px;
+    left: 550px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+
+#Communicatie{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: -5px;
+}
+
+
+
+.talen:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.toerisme:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.zorg:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.economie {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    top: 305px;
+    left: 1000px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+    
+}
+
+.economie:hover {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    top: 305px;
+    left: 1000px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+
+#Economie{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: -5px;
+}
+
+.informatica {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    top: 695px;
+    left: 280px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+
+.informatica:hover{
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 695px;
+    left: 280px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+.onderwijs {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    top: 695px;
+    left: 750px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+.onderwijs:hover{
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 695px;
+    left: 750px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+#Onderwijs{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+.talen {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 1083px;
+    left: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+.toerisme {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 1083px;
+    left: 550px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+.zorg {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    top: 1083px;
+    left: 1000px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 370px;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+}
+
+
+#Informatica{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+
+#Talen{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+#Toerisme{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+#Zorg{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+
+.communicatie:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.economie:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.informatica:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.onderwijs:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.talen:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.toerisme:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+.zorg:hover{
+    border: 5px solid #ffffff;
+    background-color: orange;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    float: left;
+}
+  
+.vakbalk {
+    color: orange;
+}
+ 
+.vakbalk:hover {
+    color: black;
+    background-color: orange;
+}
+
+.balkbeneden {
+    background: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+}
+
+.title {
+    text-align: center;
+}
+
+.made {
+    text-align: center;
+
+}

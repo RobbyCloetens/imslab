@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.create{
+    color: orange;
+    text-decoration: none;
+    background-color: black;
+    font-size: 30px;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    position: relative;
+    margin: auto;
+    width: 1500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#home {
+    background-color: orange;
+    color: black;
+}
+
+#home:hover {
+    background-color: black;
+    color: orange;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    float: left;
+}
+
+.vakbalk {
+    color: orange;
+}
+ 
+.vakbalk:hover {
+    color: black;
+    background-color: orange;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    color: orange;
+}
+.table-head{
+    display: flex;
+}
+
+.table-head div{
+    padding: 5px;
+    margin: 2px;
+    background-color: #2C2C2C;
+    font-weight: bold;
+}
+
+.table-head .subjects{
+    flex: 85%;
+}
+
+.table-head .replies{
+    flex: 15%;
+}
+
+/* table body */
+.table-row{
+    display: flex;
+}
+
+.table-row .subjects, .table-row .replies{
+    padding: 5px;
+    margin: 2px;
+    background-color: #131415
+}
+
+.table-row .subjects{
+    flex: 85%;
+}
+
+.table-row .replies{
+    flex: 15%;
+}
+
+.atitels{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 36px;
+    color: white;
+}

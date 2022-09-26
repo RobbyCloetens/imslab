@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#home {
+    background-color: orange;
+    color: black;
+}
+
+#home:hover {
+    background-color: black;
+    color: orange;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    float: left;
+}
+
+.vakbalk {
+    color: orange;
+}
+ 
+.vakbalk:hover {
+    color: black;
+    background-color: orange;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    color: orange;
+}
+.table-head{
+    display: flex;
+}
+
+.table-head div{
+    padding: 5px;
+    margin: 2px;
+    background-color: #2C2C2C;
+    font-weight: bold;
+}
+
+.table-head .subjects{
+    flex: 80%;
+}
+
+.table-head .replies{
+    flex: 20%;
+}
+
+/* table body */
+.table-row{
+    display: flex;
+}
+
+.table-row .subjects, .table-row .replies{
+    padding: 10px;
+    margin: 2px;
+    background-color: #131415
+}
+
+.table-row .subjects{
+    flex: 80.5%;
+}
+
+.table-row .replies{
+    flex: 19.5%;
+}
+
+.atitels{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 36px;
+    color: Black;
+    position: absolute;
+}
+.createvraag{
+    color: orange;
+    text-decoration: none;
+    background-color: black;
+    font-size: 20px;
+    border-style: solid;
+    width: 70px;
+    height: 50px;
+
+    margin: 42px;
+    padding: 15px;
+}
+
+h2 {
+    color: black;
+    font-size: 36px;
+
+    padding-left: 42px;
+}
+
+.createvraag:hover{
+    color: black;
+    background-color: orange;
+}
+
+/* CREATE A QUESTION */
+.containervraag{
+    margin: 25px;
+    padding: 80px;
+    color: black;
+    font-size: 24px;
+}
+
+.formname {
+    height: 30px;
+    width: 500px;
+
+    font-size: 20px;
+}
+
+.formonderwerp {
+    height: 30px;
+    width: 500px;
+
+    font-size: 20px;
+}
+
+.formtitel {
+    height: 30px;
+    width: 800px;
+
+    font-size: 20px;
+}
+
+.formvraag {
+    font-size: 16px;
+    resize: none;
+}
+
+.formond{
+    background-color: rgb(190, 190, 190);
+    border: none;
+    font-size: 32px;
+    color: black;
+
+    padding-left: 42px;
+}
+
+.verzend{
+    color: orange;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+
+    width: 200px;
+    height: 50px;
+}
+
+.verzend:hover{
+    color: black;
+    background-color: orange;
+}

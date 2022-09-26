@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
+.name{
+    font-size: 20px;
+    color: black;
+}
+.firstname{
+    font-size: 20px;
+    color: black;
+}
+
+.password{
+    font-size: 20px;
+    color: black;
+
+}
+
+.pass{
+    width: 200px;
+    height: 25px;
+}
+
+.r-nummer{
+    font-size: 20px;
+    color: black;
+
+}
+
+.r{
+    width: 200px;
+    height: 25px;
+}
+
+.mail{
+    font-size: 20px;
+    color: black;
+
+}
+
+.mail2{
+    width: 200px;
+    height: 25px;
+}
+
+.login{
+    color: orange;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+
+    width: 200px;
+    height: 50px;
+}
+
+.login:hover{
+    color: black;
+    background-color: orange;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+
+    width: 200px;
+    height: 50px;
+}
